@@ -1,0 +1,19 @@
+{
+  "name": "@ocomputers/storage-service",
+  "version": "0.1.0",
+  "description": "abstration layer for dealing with local storage in browsers and lack off in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocomputers/storage-service.git"
+  },
+  "author": "ollie@ocomputers.co.uk",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ocomputers/storage-service/issues"
+  },
+  "homepage": "https://github.com/ocomputers/storage-service#readme"
+}
