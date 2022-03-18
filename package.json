@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/ocomputers/storage-service#readme",
   "devDependencies": {
-    "jest": "^27.5.1"
+    "eslint": "^8.11.0",
+    "eslint-plugin-jest": "^26.1.1",
+    "jest": "^27.5.1",
+    "jest-localstorage-mock": "^2.4.19"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
