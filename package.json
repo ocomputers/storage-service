@@ -1,6 +1,6 @@
 {
   "name": "@ocomputers/storage-service",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "abstration layer for dealing with local storage in browsers and lack off in node",
   "main": "index.js",
   "type": "module",
