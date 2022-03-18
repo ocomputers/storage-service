@@ -1,10 +1,10 @@
 {
   "name": "@ocomputers/storage-service",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "abstration layer for dealing with local storage in browsers and lack off in node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ocomputers/storage-service/issues"
   },
-  "homepage": "https://github.com/ocomputers/storage-service#readme"
+  "homepage": "https://github.com/ocomputers/storage-service#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
